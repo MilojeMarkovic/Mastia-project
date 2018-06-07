@@ -1,0 +1,73 @@
+//////////WE CARE SECTION//////////////
+.section-wecare {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background/home.jpg);
+    height: 80vh;
+    background-position: top;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.we-care-text {
+
+    &__text-paragraph {
+        color: #ffffff;
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    &__button {
+        font-family: "Play", sans-serif;
+        display: inline-block;
+        padding: 5px 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+        border: 1px solid white;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        cursor: pointer;
+        outline: none;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+    }
+}
+.arrowheads {
+
+    &__arrow-right {
+        font-size: 50px;
+        padding: 0 20px;
+        //line-height: 50px;
+        //height: 60px;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background: transparent;
+        outline: none;
+        -webkit-transition: .2s;
+        transition: .2s;
+        position: absolute;
+        right: 40px;
+    }
+    &__arrow-left {
+        font-size: 50px;
+        padding: 0 20px;
+        //line-height: 50px;
+        //height: 60px;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background: transparent;
+        outline: none;
+        -webkit-transition: .2s;
+        transition: .2s;
+        position: absolute;
+        left: 40px;
+    }
+}

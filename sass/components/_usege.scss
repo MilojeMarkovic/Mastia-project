@@ -1,0 +1,27 @@
+.usege-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background/usage.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+
+    &__usage-icons {
+        font-size: 35px;
+        color: #ffffff;
+        border: 2px solid #22a7f0;
+        padding: 22px 30px;
+        border-radius: 50%;
+    }
+
+    &__text {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+
+    &__paragraph {
+        font-weight: 300;
+        font-family: "Open Sans",sans-serif;
+        font-size: 14px;
+        color: #ffffff;
+    }
+}

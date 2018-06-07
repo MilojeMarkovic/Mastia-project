@@ -1,0 +1,37 @@
+.social-icons {
+    background-color: #ffffff;
+    color: #4b4b4b;
+}
+.nav-bar {
+    border-bottom: 2px solid #eeeeee;
+    padding: 15px;  
+}
+.nav-bar-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    //-webkit-box-orient: horizontal;
+    //-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    //-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+.icon-padding {
+    padding-right: 10px;
+}
+.contact-text {
+    text-decoration: none;
+    color: #4b4b4b;
+    list-style: none;
+
+    display: flex;
+
+    &__icons {
+        padding-left: 20px;
+    }
+}

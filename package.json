@@ -1,0 +1,14 @@
+{
+  "name": "mastia",
+  "version": "1.0.0",
+  "description": "Landing page for Mastia",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":" node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "Miloje",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

@@ -1,0 +1,30 @@
+.get-in-touch {
+    background-color: #22a7f0;
+
+    &__text {
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #ffffff;
+        padding-top: 10px;
+    }
+
+    &__btn {
+        font-family: "Play", sans-serif;
+        display: inline-block;
+        padding: 10px 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+        border: 1px solid white;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        cursor: pointer;
+        outline: none;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+    }
+}

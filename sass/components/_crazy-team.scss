@@ -1,0 +1,25 @@
+.crazy-team-section {
+
+    &__head {
+        text-align: left;
+        font-size: 30px;
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    &__names {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 22px;
+        font-family: "Play",sans-serif;
+    }
+
+    &__jobs {
+        font-family: "Play",sans-serif;
+        font-size: 13px;
+    }
+}
+
+.crazy-team-pic {
+    width: 250px;
+}

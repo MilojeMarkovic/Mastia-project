@@ -1,0 +1,39 @@
+.margin-for-blog {
+    margin-right: 15px;
+}
+
+.img-in-blog {
+    
+    &__small-blog-pic {
+        float: left;
+        width: 250px;
+    }
+}
+.text-part {
+
+    &__date {
+        font-family: "Open Sans",sans-serif !important;
+        font-size: 14px;
+        transform: skewX(-12deg);
+        text-align: left;
+        margin-left: 260px;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+
+    &__description {
+        font-size: 14px;
+        margin-left: 260px;
+        text-align: left;
+    }
+
+    &__read-more {
+        font-family: "Open Sans",sans-serif !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-right: 20px;
+        text-align: right;
+        color: #22a7f0;
+    }
+}
