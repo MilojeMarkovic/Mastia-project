@@ -4,11 +4,14 @@
   "description": "Landing page for Mastia",
   "main": "index.js",
   "scripts": {
-    "compile:sass":" node-sass sass/style.scss css/style.css -w"
+    "compile:sass": " node-sass sass/style.scss css/style.css -w"
   },
   "author": "Miloje",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
   }
 }
