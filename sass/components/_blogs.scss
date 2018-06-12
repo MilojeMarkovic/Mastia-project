@@ -5,15 +5,15 @@
     }
 
     &__big-blog-img {
-        width: 710px;
-        height: 320px;
+        width: 729px;
+        height: 346px;
     }
 
     &__text-on-the-img {
         position: absolute;
         text-align: left;
         bottom: 50px;
-        left: 31px;
+        left: 22px;
         background-color: #22a7f0;
         padding: 10px;
         color: #ffffff;
@@ -23,15 +23,15 @@
 
     &__text-past-img {
         text-align: left;
-        padding-left: 30px;
+        padding-left: 20px;
     }
 
     &__text-after-img {
         font-family: "Play",sans-serif;
         font-weight: 700;
         font-size: 24px;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 
     &__sub-text-after-img {
@@ -40,8 +40,8 @@
 
     &__blogs-button {
         text-align: right;
-        margin-right: 30px;
-        margin-bottom: 50px;
+        margin-right: 20px;
+        margin-bottom: 80px;
     }
     &__blogs-btn {
         background-color: #22a7f0;
@@ -58,7 +58,7 @@
 }
 .blogs-small-arrows {
     text-align: right;
-    margin-right: 30px;
+    margin-right: 20px;
 
     &__arrows {
         background-color: #22a7f0;
@@ -131,9 +131,11 @@
 
     margin-top: 25px;
     position: relative;
+    margin-bottom: 40px;
 
     &__mini-img {
-        width: 100px;
+        width: 83px;
+        height: 78px;
         position: absolute;
         left: 0;
         margin-left: 10px;

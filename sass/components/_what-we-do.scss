@@ -11,36 +11,48 @@
     }
 
     &__form {
-        padding: 15px 25px;
+        padding: 13px 0;
+        font-size: 14px;
+        line-height: 24px;
+        width: 500px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        border: 2px solid #eeeeee;
+        outline: none;
+        position: relative;
+    }
+
+    &__form--1 {
+        padding: 14px 10px;
         font-size: 16px;
         line-height: 24px;
         width: 500px;
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        border: 1px solid #eeeeee;
+        border: 2px solid #eeeeee;
         outline: none;
         position: relative;
     }
 }
 .alining-left {
     text-align: left;
-    margin-left: 5px;
 }
+
 .accordion--button {
     padding: 15px 20px;
-    border: 1px solid #eeeeee;
-    position: absolute;
-    left: 0;
-    top: 0;
     cursor: pointer;
-}
-
-.accordion--button:hover {
-    border-color: #22a7f0;
-    background-color: #22a7f0;
-    color: #ffffff;
-
+    color: #4b4b4b;
 }
 .accordion-main-text {
-    margin-left: 50px;
+    color: #4b4b4b;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.ui-accordion .ui-accordion-header {
+    margin: 10px 0 0 0;
+}
+.ui-state-active {
+    border: 1px solid #22a7f0;
+    background: #22a7f0;
 }

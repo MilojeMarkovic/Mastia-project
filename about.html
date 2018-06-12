@@ -8,18 +8,6 @@
 
         <link href="https://unpkg.com/ionicons@4.1.2/dist/css/ionicons.min.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="/resources/demos/style.css">
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script>
-            $( function() {
-                $( "#accordion" ).accordion({
-                    collapsible: true
-                });
-            } );
-        </script>
-        
         <link rel="stylesheet" type="text/css" href="css/grid.css">
         <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -51,20 +39,20 @@
             <div class="contact-form">
                 <div class="contact-text">
                     <h4><span class="ion-clock contact-text__icons"></span> Mon - Sat 7:00 - 17:00</h4>
-                    <h4><span class="ion-ios-telephone contact-text__icons"></span> +381 785 60 90</h4>
+                    <h4><span class="ion-ios-telephone contact-text__icons"></span> + 381 40 111 5555</h4>
                     <h4><span class="ion-android-mail contact-text__icons"></span> info@yourdomain.com</h4>                
                 </div>        
             </div>
         </div>
         </nav>
 
-        <header class="title-text section-paddings">
+        <header class="title-text header-paddings">
             <div class="container nav-bar-flex">
             
             <img src="img/checkbox-logo.png" class="checkbox-logo">
             
             <div class="contact-form">
-                    <div class="contact-text">
+                    <div class="contact-text-pages">
                         <p class="text-padding text-hover"><a href="index.html">Home</a></p>
                         <p class="text-padding text-hover"><a href="about.html">About Us</a></p>
                         <p class="text-padding text-hover"><a href="pages.html">Pages</a></p>
@@ -151,28 +139,28 @@
                         <div class="accordion-container alining-left what-we-do-section__form">
                             <h3 class="accordion-main-text"><span class="accordion--button">&#62;</span> We are Creative</h3>
                         </div>
-                        <div class="accordion-container alining-left what-we-do-section__form">
+                        <div class="accordion-container alining-left what-we-do-section__form--1">
                             <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel.</p>
                         </div>
                             
                         <div class="accordion-container alining-left what-we-do-section__form">
                             <h3 class="accordion-main-text"><span class="accordion--button">&#62;</span> Proffesional Services</h3>
                         </div>
-                        <div class="accordion-container alining-left what-we-do-section__form">
+                        <div class="accordion-container alining-left what-we-do-section__form--1">
                             <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet.</p>
                         </div>
 
                         <div class="accordion-container alining-left what-we-do-section__form">
                             <h3 class="accordion-main-text"><span class="accordion--button">&#62;</span> 15 years of Experience</h3>
                         </div>
-                        <div class="accordion-container alining-left what-we-do-section__form">
+                        <div class="accordion-container alining-left what-we-do-section__form--1">
                             <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in.</p>
                         </div>
 
                         <div class="accordion-container alining-left what-we-do-section__form">
                             <h3 class="accordion-main-text"><span class="accordion--button">&#62;</span> Quallity Workmanship</h3>
                         </div>    
-                        <div class="accordion-container alining-left what-we-do-section__form">
+                        <div class="accordion-container alining-left what-we-do-section__form--1">
                             <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                         </div>
                         </div>
@@ -254,7 +242,7 @@
                 </div>
             
                 <div class="contact-form">
-                    <div class="contact-text">
+                    <div class="contact-text-get-in-touch">
                         <button class="get-in-touch__btn">Get in touch</button>                
                     </div>        
                 </div>
@@ -264,7 +252,7 @@
 
      <!-- FOOTER PART -->
      <footer class="footer-paddings footer-background">
-        <div class="row">
+        <div class="row container">
             <div class="col span-1-of-4">
                 <div class="about-us-part">
                     <h3 class="about-us-part__head">About Us</h3>
@@ -313,19 +301,17 @@
         </div>  
     </footer>   
 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#accordion" ).accordion({
+                collapsible: true
+            });
+        } );
+    </script>
+    
     </body>
 </html>
 
 
-<!--<div class="contact-container alining-left">
-                            <span class="what-we-do-arrow-color">&#62;</span><input type="text" name="text" class="what-we-do-section__form" placeholder="We are Creative">
-                        </div>
-                        <div class="contact-container alining-left">
-                            <span class="what-we-do-arrow-color">&#62;</span><input type="text" name="text" class="what-we-do-section__form" placeholder="Proffesional skills">
-                        </div>
-                        <div class="contact-container alining-left">
-                            <span class="what-we-do-arrow-color">&#62;</span><input type="text" name="text" class="what-we-do-section__form" placeholder="15 years of Experience">
-                        </div>
-                        <div class="contact-container alining-left">
-                            <span class="what-we-do-arrow-color">&#62;</span><input type="text" name="text" class="what-we-do-section__form" placeholder="Quallity Workmanship">
-                        </div>-->

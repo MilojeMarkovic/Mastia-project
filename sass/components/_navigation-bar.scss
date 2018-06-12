@@ -32,6 +32,15 @@
     display: flex;
 
     &__icons {
-        padding-left: 20px;
+        padding-left: 40px;
     }
+}
+.contact-text-pages {
+    text-decoration: none;
+    color: #4b4b4b;
+    list-style: none;
+    text-transform: uppercase;
+
+    display: flex;
+
 }

@@ -11,7 +11,7 @@
     &__btn {
         font-family: "Play", sans-serif;
         display: inline-block;
-        padding: 10px 25px;
+        padding: 14px 40px;
         text-transform: uppercase;
         text-decoration: none;
         background-color: transparent;
@@ -27,4 +27,17 @@
         -webkit-transition: 0.2s;
         transition: 0.2s;
     }
+
+    &__btn:hover {
+        background-color: #ffffff;
+        color: #22a7f0;
+    }
+}
+.contact-text-get-in-touch {
+    text-decoration: none;
+    color: #4b4b4b;
+    list-style: none;
+    margin-right: 15px;
+
+    display: flex;
 }

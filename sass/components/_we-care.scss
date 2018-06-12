@@ -12,16 +12,19 @@
 }
 .we-care-text {
 
+    &__main-heading {
+        font-size: 53px;
+    }
     &__text-paragraph {
         color: #ffffff;
         font-size: 16px;
-        padding-top: 20px;
+        padding-top: 10px;
         padding-bottom: 20px;
     }
     &__button {
         font-family: "Play", sans-serif;
         display: inline-block;
-        padding: 5px 25px;
+        padding: 10px 38px;
         text-transform: uppercase;
         text-decoration: none;
         background-color: transparent;
@@ -37,12 +40,17 @@
         -webkit-transition: 0.2s;
         transition: 0.2s;
     }
+
+    &__button:hover {
+        background-color: #ffffff;
+        color: #22a7f0;
+    }
 }
 .arrowheads {
 
     &__arrow-right {
         font-size: 50px;
-        padding: 0 20px;
+        padding: 3px 24px;
         //line-height: 50px;
         //height: 60px;
         border: 1px solid #ffffff;
@@ -53,11 +61,11 @@
         -webkit-transition: .2s;
         transition: .2s;
         position: absolute;
-        right: 40px;
+        right: 30px;
     }
     &__arrow-left {
         font-size: 50px;
-        padding: 0 20px;
+        padding: 3px 24px;
         //line-height: 50px;
         //height: 60px;
         border: 1px solid #ffffff;
@@ -68,6 +76,16 @@
         -webkit-transition: .2s;
         transition: .2s;
         position: absolute;
-        left: 40px;
+        left: 30px;
+    }
+
+    &__arrow-right:hover {
+        background-color: #ffffff;
+        color: #22a7f0;
+    }
+
+    &__arrow-left:hover {
+        background-color: #ffffff;
+        color: #22a7f0;
     }
 }
