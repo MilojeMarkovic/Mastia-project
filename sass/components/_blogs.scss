@@ -1,3 +1,19 @@
+.breadcrumbs--1 {
+    text-align: right;
+    list-style-type: none;
+}
+.breadcrumbs--1 li {
+    font-size: 18px;
+    display: inline;
+    color: #ffffff;
+}
+.breadcrumbs--1 li+li:before {
+    padding: 8px;
+    color: #ffffff;
+    content: "/\00a0";
+}
+
+
 .blogs-section {
 
     &__img-of-a-blog {
@@ -42,18 +58,6 @@
         text-align: right;
         margin-right: 20px;
         margin-bottom: 80px;
-    }
-    &__blogs-btn {
-        background-color: #22a7f0;
-        padding: 10px;
-        color: #ffffff;
-        font-family: "Play",sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        text-transform: uppercase;
-        outline: none;
-        cursor: pointer;
-        border: 1px solid #22a7f0;
     }
 }
 .blogs-small-arrows {
@@ -135,10 +139,11 @@
 
     &__mini-img {
         width: 83px;
-        height: 78px;
         position: absolute;
         left: 0;
         margin-left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     &__small-text-area {

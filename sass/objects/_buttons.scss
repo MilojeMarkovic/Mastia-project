@@ -1,0 +1,108 @@
+///////////////////// We Care Button //////////////////////////////
+.btn-primary {
+    font-family: "Play", sans-serif;
+    display: inline-block;
+    padding: 10px 38px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #22a7f0;
+}
+
+/////////////////////////// Get in Touch ////////////////////////////////////////////
+
+.btn-footer {
+    font-family: "Play", sans-serif;
+    display: inline-block;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.btn-footer:hover {
+    background-color: #ffffff;
+    color: #22a7f0;
+}
+
+///////////////////////////// Contact Us /////////////////////////////////
+/*
+.contact-button {
+    text-align: left;
+    margin-top: 20px;
+
+    &__contact-btn {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #22a7f0;
+        outline: none;
+        border: 1px solid #22a7f0;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
+
+///////////////////////// Our Service //////////////////////////////////////////
+
+.who-are-we-btn {
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #22a7f0;
+    outline: none;
+    border: 1px solid #22a7f0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+//////////////////////////// Read More /////////////////////////////////////////////////
+
+&__blogs-btn {
+    
+    
+}*/
+
+.btn-secondary {
+    border: 1px solid #22a7f0;
+    font-family: "Play",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #22a7f0;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}

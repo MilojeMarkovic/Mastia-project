@@ -37,6 +37,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.margin-bottom-medium {
+  margin-bottom: 50px; }
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -631,6 +634,119 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.btn-primary {
+  font-family: "Play", sans-serif;
+  display: inline-block;
+  padding: 10px 38px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  border: 1px solid white;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #22a7f0; }
+
+.btn-footer {
+  font-family: "Play", sans-serif;
+  display: inline-block;
+  padding: 14px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  border: 1px solid white;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+
+.btn-footer:hover {
+  background-color: #ffffff;
+  color: #22a7f0; }
+
+/*
+.contact-button {
+    text-align: left;
+    margin-top: 20px;
+
+    &__contact-btn {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #22a7f0;
+        outline: none;
+        border: 1px solid #22a7f0;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
+
+///////////////////////// Our Service //////////////////////////////////////////
+
+.who-are-we-btn {
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #22a7f0;
+    outline: none;
+    border: 1px solid #22a7f0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+//////////////////////////// Read More /////////////////////////////////////////////////
+
+&__blogs-btn {
+    
+    
+}*/
+.btn-secondary {
+  border: 1px solid #22a7f0;
+  font-family: "Play",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #22a7f0;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer; }
+
+.breadcrumbs--1 {
+  text-align: right;
+  list-style-type: none; }
+
+.breadcrumbs--1 li {
+  font-size: 18px;
+  display: inline;
+  color: #ffffff; }
+
+.breadcrumbs--1 li + li:before {
+  padding: 8px;
+  color: #ffffff;
+  content: "/\00a0"; }
+
 .blogs-section__img-of-a-blog {
   position: relative; }
 
@@ -667,18 +783,6 @@ a {
   text-align: right;
   margin-right: 20px;
   margin-bottom: 80px; }
-
-.blogs-section__blogs-btn {
-  background-color: #22a7f0;
-  padding: 10px;
-  color: #ffffff;
-  font-family: "Play",sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  text-transform: uppercase;
-  outline: none;
-  cursor: pointer;
-  border: 1px solid #22a7f0; }
 
 .blogs-small-arrows {
   text-align: right;
@@ -743,10 +847,11 @@ a {
   margin-bottom: 40px; }
   .photos-with-posts__mini-img {
     width: 83px;
-    height: 78px;
     position: absolute;
     left: 0;
-    margin-left: 10px; }
+    margin-left: 10px;
+    top: 50%;
+    transform: translateY(-50%); }
   .photos-with-posts__small-text-area {
     font-size: 14px;
     margin-bottom: 10px; }
@@ -778,9 +883,9 @@ a {
     margin-bottom: 10px; }
 
 .layout-form__contact-name {
-  padding: 20px 25px;
+  padding-left: 10px;
   font-size: 18px;
-  height: 24px;
+  height: 45px;
   outline: none;
   width: 540px;
   font-family: "Open Sans", sans-serif;
@@ -788,9 +893,8 @@ a {
   border: 2px solid #eeeeee; }
 
 .layout-form-message__message-textarea {
-  padding: 20px 25px;
+  padding-left: 10px;
   font-size: 18px;
-  height: 24px;
   outline: none;
   width: 100%;
   font-family: "Open Sans", sans-serif;
@@ -799,23 +903,8 @@ a {
   resize: none;
   border: 2px solid #eeeeee; }
 
-.contact-button {
-  text-align: left;
-  margin-top: 20px; }
-  .contact-button__cont-btn {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #22a7f0;
-    outline: none;
-    border: 1px solid #22a7f0;
-    padding: 10px 20px;
-    cursor: pointer; }
-
 .text-padding {
-  padding: 35px 0 0 30px; }
+  padding: 0 0 0 30px; }
 
 .text-hover:hover {
   color: #22a7f0;
@@ -838,7 +927,8 @@ a {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .icon-padding {
   padding-right: 10px; }
@@ -863,11 +953,23 @@ a {
   padding-top: 15px;
   padding-right: 15px; }
 
-.alining-text-right {
+.breadcrumbs {
   text-align: right;
-  word-spacing: 10px;
-  margin-right: 15px;
-  cursor: pointer; }
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-right: 20px; }
+
+.breadcrumbs li {
+  font-size: 18px;
+  display: inline; }
+
+.breadcrumbs li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0"; }
+
+.breadcrumbs li a:hover {
+  border-bottom: 2px solid #22a7f0; }
 
 .section-wecare {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background/home.jpg);
@@ -887,29 +989,6 @@ a {
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 20px; }
-
-.we-care-text__button {
-  font-family: "Play", sans-serif;
-  display: inline-block;
-  padding: 10px 38px;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-  border: 1px solid white;
-  color: white;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  cursor: pointer;
-  outline: none;
-  -webkit-transition: 0.2s;
-  transition: 0.2s; }
-
-.we-care-text__button:hover {
-  background-color: #ffffff;
-  color: #22a7f0; }
 
 .arrowheads__arrow-right {
   font-size: 50px;
@@ -969,19 +1048,23 @@ a {
 .building-imgs {
   width: 340px; }
 
+.pagination {
+  display: inline; }
+
+.pagination a {
+  color: #ffffff;
+  background-color: #22a7f0;
+  font-size: 25px;
+  padding: 0px 10px;
+  text-decoration: none;
+  border: none; }
+
+.pagination a:hover {
+  background-color: #1e90ff; }
+
 .small-arrows {
-  text-align: right; }
-  .small-arrows__arrow-settings {
-    padding-right: 15px; }
-  .small-arrows__arrows {
-    background-color: #22a7f0;
-    padding: 0 10px;
-    outline: none;
-    border: none;
-    line-height: 24px;
-    font-size: 20px;
-    color: #ffffff;
-    cursor: pointer; }
+  text-align: right;
+  margin-right: 15px; }
 
 .client-numbers {
   background-image: linear-gradient(rgba(34, 167, 240, 0.5), rgba(34, 167, 240, 0.5)), url(../img/building/building-img-5.jpg);
@@ -1041,29 +1124,7 @@ a {
   .get-in-touch__text {
     text-transform: uppercase;
     font-size: 24px;
-    color: #ffffff;
-    padding-top: 10px; }
-  .get-in-touch__btn {
-    font-family: "Play", sans-serif;
-    display: inline-block;
-    padding: 14px 40px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-    border: 1px solid white;
-    color: white;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    cursor: pointer;
-    outline: none;
-    -webkit-transition: 0.2s;
-    transition: 0.2s; }
-  .get-in-touch__btn:hover {
-    background-color: #ffffff;
-    color: #22a7f0; }
+    color: #ffffff; }
 
 .contact-text-get-in-touch {
   text-decoration: none;
@@ -1140,19 +1201,6 @@ a {
   font-weight: 400;
   font-family: "Open Sans", sans-serif; }
 
-.who-are-we-btn {
-  margin-top: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #22a7f0;
-  outline: none;
-  border: 1px solid #22a7f0;
-  padding: 10px 20px;
-  cursor: pointer; }
-
 .margin-bottom {
   margin-bottom: 20px; }
 
@@ -1210,14 +1258,16 @@ a {
   text-align: left; }
 
 .accordion--button {
-  padding: 15px 20px;
   cursor: pointer;
-  color: #4b4b4b; }
+  color: #4b4b4b;
+  position: absolute;
+  left: 26px; }
 
 .accordion-main-text {
   color: #4b4b4b;
   font-size: 16px;
-  text-transform: none; }
+  text-transform: none;
+  margin-left: 60px; }
 
 .ui-accordion .ui-accordion-header {
   margin: 10px 0 0 0; }
