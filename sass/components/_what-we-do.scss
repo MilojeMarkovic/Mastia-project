@@ -34,16 +34,27 @@
         position: relative;
     }
 }
+.ui-accordion-content-active {
+    background: #4b4b4b;
+    border-color: #4b4b4b; 
+}
+.ui-accordion-content-active p {
+    color: #ffffff;
+}
+
 .alining-left {
     text-align: left;
 }
 
 .accordion--button {
-    //padding: 15px 20px;
     cursor: pointer;
     color: #4b4b4b;
     position: absolute;
-    left: 26px;
+    left: 20px;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    transition: all .2s;
 }
 .accordion-main-text {
     color: #4b4b4b;
@@ -58,4 +69,9 @@
 .ui-state-active {
     border: 1px solid #22a7f0;
     background: #22a7f0;
+}
+
+.ui-state-active .accordion--button {
+    transform: rotate(90deg);
+    transition: all .2s;
 }

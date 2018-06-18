@@ -7,9 +7,7 @@
     &__usage-icons {
         font-size: 35px;
         color: #ffffff;
-        border: 2px solid #22a7f0;
-        padding: 22px 30px;
-        border-radius: 50%;
+        text-align: center;
     }
 
     &__text {
@@ -25,3 +23,19 @@
         color: #ffffff;
     }
 }
+
+.box-model {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #22a7f0;
+    border-radius: 50%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -21,15 +21,14 @@
     }
 
     &__big-blog-img {
-        width: 729px;
-        height: 346px;
+        width: 730px;
     }
 
     &__text-on-the-img {
         position: absolute;
         text-align: left;
         bottom: 50px;
-        left: 22px;
+        left: 15px;
         background-color: #22a7f0;
         padding: 10px;
         color: #ffffff;
@@ -170,7 +169,8 @@
 
     &__mini-img-grid {
         width: 165px;
-        margin: 5px;
+        margin: 2px;
+        padding: 5px;
     }
 }
 
