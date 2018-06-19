@@ -1,0 +1,465 @@
+@media only screen and (max-width: 1130px) {
+    /* HOME */
+    .margin-for-blog {
+        margin-right: 0;
+    }  
+
+    /* PROJECTS */
+    .recent-section__grid-pic {
+        max-width: 363px;
+    }
+
+    /* BLOGS */
+    .grid-photo-posts__mini-img-grid {
+        width: 163px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    
+}
+
+@media only screen and (max-width: 1060px) {
+
+    /* HOME */
+    .building-imgs {
+        width: 300px;
+    }
+    .margin-for-blog {
+        margin-right: 0;
+    }   
+    
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 490px;
+        height: 450px;
+    }
+    .what-we-do-section__form {
+        width: 490px;
+    }
+    .what-we-do-section__form--1 {
+        width: 490px;
+    }
+
+    /* PROJECTS */
+
+    .recent-section__grid-pic {
+        width: 340px;
+        height: 255px;
+    }
+
+    /* BLOG */
+
+    .span-2-of-3-blog {
+        width: 66%;
+    }
+    .blogs-section__big-blog-img {
+        width: 650px;
+    }
+    .recent-posts,
+    .blog-categori{
+        text-align: center;
+    }
+    .grid-photo-posts__mini-img-grid {
+        width: 144px;
+    }
+    .search-input {
+        width: 300px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    /* HOME */
+    .building-imgs {
+        width: 300px;
+    }
+    .margin-for-blog {
+        margin-right: 0;
+    }   
+    
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 490px;
+        height: 450px;
+    }
+    .what-we-do-section__form {
+        width: 490px;
+    }
+    .what-we-do-section__form--1 {
+        width: 490px;
+    }
+
+    /* PROJECTS */
+
+    .recent-section__grid-pic {
+        width: 323px;
+        height: 255px;
+    }
+
+    /* BLOG */
+
+    .span-2-of-3-blog {
+        width: 66%;
+    }
+    .blogs-section__big-blog-img {
+        width: 650px;
+    }
+    .recent-posts,
+    .blog-categori{
+        text-align: center;
+    }
+    .grid-photo-posts__mini-img-grid {
+        width: 144px;
+    }
+    .search-input {
+        width: 300px;
+    }
+    
+
+}
+/* 900 px */
+
+@media only screen and (max-width: 900px) {
+
+    /* HOME */
+    .checkbox-logo {
+        width: 30%;
+    }
+    .text-padding {
+        padding: 0 0 0 20px;
+    }
+    .building-imgs {
+        width: 230px;
+    }
+    .margin-for-blog {
+        margin-right: 0;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 390px;
+        height: 350px;
+    }
+    .client-says-section__client-img {
+        width: 70%;
+    }
+    .what-we-do-section__form {
+        width: 390px;
+    }
+    .what-we-do-section__form--1 {
+        width: 390px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+        width: 290px;
+        height: 250px;
+    }
+
+    /* BLOGS */
+
+    .span-2-of-3-blog {
+        width: 100%;
+    }
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 770px;
+    }
+    .blogs-section__img-of-a-blog {
+        text-align: left;
+    }
+    .blogs-section__text-past-img {
+        width: 800px;
+    }
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
+
+/* 700 px */
+
+@media only screen and (max-width: 700px) {
+
+    .span-1-of-2 {
+        width: 100%;
+    }
+    .span-1-of-4-crazy-team {
+        width: 100%;
+    } 
+
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    /* HOME */
+
+    .contact-text {
+        display: inline;
+    }
+    .checkbox-logo {
+        display: none;
+    }
+    .arrowheads__arrow-right {
+        right: 0;
+        bottom: 120px;
+    }
+    .arrowheads__arrow-left {
+        left: 0;
+        bottom: 120px;
+    }
+    .text-padding {
+        padding: 0 0 0 40px;
+    }
+    .small-arrows {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .margin-for-blog {
+        margin-bottom: 15px;
+    }
+    .building-imgs {
+        width: 200px;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 450px;
+        height: 450px;
+    }
+    .client-says-section__align-img-right {
+        text-align: center;
+    }
+    .client-says-section__client-img {
+        width: 70%;
+    }
+    .what-we-do-section__form {
+        width: 450px;
+    }
+    .what-we-do-section__form--1 {
+        width: 450px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+        width: 330px;
+    }
+
+    /* BLOGS */
+
+    .span-2-of-3-blog {
+        width: 100%;
+    }
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 670px;
+    }
+
+    .blogs-section__img-of-a-blog {
+        text-align: -webkit-auto;
+    }
+    .blogs-section__text-past-img {
+        width: auto;
+    }
+
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
+
+/* 600 px */
+@media only screen and (max-width: 600px) {
+
+    .span-1-of-2 {
+        width: 100%;
+    }
+    .span-1-of-4-crazy-team {
+        width: 100%;
+    } 
+
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    /* HOME */
+
+    .contact-text {
+        display: inline;
+    }
+    .checkbox-logo {
+        display: none;
+    }
+    .arrowheads__arrow-right {
+        right: 0;
+        bottom: 120px;
+    }
+    .arrowheads__arrow-left {
+        left: 0;
+        bottom: 120px;
+    }
+    .text-padding {
+        padding: 0 0 0 30px;
+    }
+    .small-arrows {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .margin-for-blog {
+        margin-bottom: 15px;
+    }
+    .building-imgs {
+        width: 170px;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 450px;
+        height: 450px;
+    }
+    .client-says-section__align-img-right {
+        text-align: center;
+    }
+    .client-says-section__client-img {
+        width: 70%;
+    }
+    .what-we-do-section__form {
+        width: 450px;
+    }
+    .what-we-do-section__form--1 {
+        width: 450px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* BLOGS */
+
+    .span-2-of-3 {
+        width: 100%;
+    }
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 570px;
+    }
+
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
+
+/* 480 px */
+
+@media only screen and (max-width: 480px) {
+
+    /* HOME */
+
+    .contact-text {
+        display: inline;
+    }
+    .checkbox-logo {
+        display: none;
+    }
+    .arrowheads__arrow-right {
+        right: 0;
+        bottom: 120px;
+    }
+    .arrowheads__arrow-left {
+        left: 0;
+        bottom: 120px;
+    }
+    .text-padding {
+        padding: 0 0 0 15px !important;
+    }
+    .small-arrows {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .margin-for-blog {
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 450px;
+        height: 450px;
+    }
+    .client-says-section__align-img-right {
+        text-align: center;
+    }
+    .client-says-section__client-img {
+        width: 35%;
+    }
+    .what-we-do-section__form {
+        width: 450px;
+    }
+    .what-we-do-section__form--1 {
+        width: 450px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* BLOGS */
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 450px;
+    }
+
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
