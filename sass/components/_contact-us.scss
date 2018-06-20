@@ -8,7 +8,7 @@
 .layout-form {
 
     &__first-name {
-        grid-column: 9 / 19;
+        grid-column: 1 / span 18;
         grid-row: 1 / 2;
 
         border: 2px solid #eeeeee;
@@ -27,7 +27,7 @@
     }
 
     &__last-name {
-        grid-column: 21 / 31;
+        grid-column: 21 / span 18;
         grid-row: 1 / 2;
 
         border: 2px solid #eeeeee;
@@ -46,7 +46,7 @@
     }
 
     &__email {
-        grid-column: 9 / 19;
+        grid-column: 1 / span 18;
         grid-row: 3 / 4;
 
         border: 2px solid #eeeeee;
@@ -65,7 +65,7 @@
     }
 
     &__website {
-        grid-column: 21 / 31;
+        grid-column: 21 / span 18;
         grid-row: 3 / 4;
 
         border: 2px solid #eeeeee;
@@ -84,7 +84,7 @@
     }
     
     &__message-textarea {
-        grid-column: 9 / 31;
+        grid-column: 1 / 39;
         grid-row: 5 /11;
 
         border: 2px solid #eeeeee;
@@ -102,7 +102,12 @@
     }
 
     &__button {
-        grid-column: 9 / span 1;
+        grid-column: 1 / 5;
         grid-row: 11 / 12;
+
+        @media only screen and (max-width: 700px) {
+            grid-column: 16 / 9;
+            grid-row: 11 /12;
+        }
     }
 }

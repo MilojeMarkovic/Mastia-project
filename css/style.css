@@ -861,7 +861,7 @@ a {
   grid-template-rows: repeat(11, 1fr); }
 
 .layout-form__first-name {
-  grid-column: 9 / 19;
+  grid-column: 1 / span 18;
   grid-row: 1 / 2;
   border: 2px solid #eeeeee;
   outline: none;
@@ -876,7 +876,7 @@ a {
       margin-bottom: 10px; } }
 
 .layout-form__last-name {
-  grid-column: 21 / 31;
+  grid-column: 21 / span 18;
   grid-row: 1 / 2;
   border: 2px solid #eeeeee;
   outline: none;
@@ -891,7 +891,7 @@ a {
       margin-bottom: 10px; } }
 
 .layout-form__email {
-  grid-column: 9 / 19;
+  grid-column: 1 / span 18;
   grid-row: 3 / 4;
   border: 2px solid #eeeeee;
   outline: none;
@@ -906,7 +906,7 @@ a {
       margin-bottom: 10px; } }
 
 .layout-form__website {
-  grid-column: 21 / 31;
+  grid-column: 21 / span 18;
   grid-row: 3 / 4;
   border: 2px solid #eeeeee;
   outline: none;
@@ -921,7 +921,7 @@ a {
       margin-bottom: 10px; } }
 
 .layout-form__message-textarea {
-  grid-column: 9 / 31;
+  grid-column: 1 / 39;
   grid-row: 5 /11;
   border: 2px solid #eeeeee;
   outline: none;
@@ -936,8 +936,12 @@ a {
       grid-row: 6 / 11; } }
 
 .layout-form__button {
-  grid-column: 9 / span 1;
+  grid-column: 1 / 5;
   grid-row: 11 / 12; }
+  @media only screen and (max-width: 700px) {
+    .layout-form__button {
+      grid-column: 16 / 9;
+      grid-row: 11 /12; } }
 
 .text-padding {
   padding: 0 0 0 30px; }
