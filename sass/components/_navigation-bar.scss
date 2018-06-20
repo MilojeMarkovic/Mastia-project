@@ -36,7 +36,7 @@
         padding-left: 40px;
     }
 }
-.contact-text-pages {
+.nav-bar-pages .nav-list {
     text-decoration: none;
     color: #4b4b4b;
     list-style: none;
@@ -44,4 +44,8 @@
 
     display: flex;
 
+}
+
+.checkbox-logo-contact-bar {
+    display: none;
 }

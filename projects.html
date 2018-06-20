@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/queries.css">
 
+
         <link rel="shortcut icon" type="image/png" href="img/logo.png">
         
         <title>Mastia</title>
@@ -20,8 +21,12 @@
 
 
     <body>
-        <nav class="nav-bar">
+        <header>
+        <section class="nav-bar">
             <div class="container nav-bar-flex">
+
+            <img src="img/checkbox-logo.png" class="checkbox-logo-contact-bar">
+            
             <div class="social-icons">
                 <a href="#">
                 <i class="ion-social-facebook social-icons__fb-icon icon-padding"></i>
@@ -45,25 +50,26 @@
                 </div>        
             </div>
         </div>
-        </nav>
+        </section>
 
-        <header class="title-text header-paddings">
+        <section class="title-text header-paddings">
             <div class="container nav-bar-flex">
             
             <img src="img/checkbox-logo.png" class="checkbox-logo">
-            
-            <div class="contact-form">
-                    <div class="contact-text-pages">
-                        <p class="text-padding text-hover"><a href="index.html">Home</a></p>
-                        <p class="text-padding text-hover"><a href="about.html">About Us</a></p>
-                        <p class="text-padding text-hover"><a href="pages.html">Pages</a></p>
-                        <p class="text-padding text-hover"><a href="projects.html">Projects</a></p>
-                        <p class="text-padding text-hover"><a href="blogs.html">Blogs</a></p>
-                        <p class="text-padding text-hover"><a href="contact.html">Contact Us</a></p>
-                    </div>
-                </div>
+        
+                <nav class="nav-bar-pages">
+                    <ul class="nav-list">
+                        <li class="text-padding text-hover"><a href="index.html">Home</a><li>
+                        <li class="text-padding text-hover"><a href="about.html">About Us</a><li>
+                        <li class="text-padding text-hover"><a href="pages.html">Pages</a><li>
+                        <li class="text-padding text-hover"><a href="projects.html">Projects</a><li>
+                        <li class="text-padding text-hover"><a href="blogs.html">Blogs</a><li>
+                        <li class="text-padding text-hover"><a href="contact.html">Contact Us</a><li>
+                    </ul>
+                </nav>
             </div>
-        </header>
+        </section>
+    </header>
 
         <!-- PROJECTS BAR -->
         <section class="projects-bar projects-paddings">
@@ -74,7 +80,7 @@
                     
                 <div class="contact-form">
                     <div class="home-direction">
-                        <ul class="breadcrumbs--1">
+                        <ul class="breadcrumbs">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Projects</a></li>
                         </ul>               
@@ -87,26 +93,81 @@
     <section class="recent-section section-paddings">
         <div class="container">
                 <h2 class="alining-text">Recent Projects</h2>
-                <ul class="breadcrumbs">
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">Web</a></li>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">Wordpress</a></li>
-                    <li><a href="#">UI</a></li>
-                </ul>
-        <div class="projects-grid-pic">
-        <div class="container">
+
+            <div id="myBtnContainer" style="text-align: right; margin-right: 15px;">
+                <button class="btn active" onclick="filterSelection('all')">All</button>
+                <button class="btn" onclick="filterSelection('web')">Web</button>
+                <button class="btn" onclick="filterSelection('html')">HTML</button>
+                <button class="btn" onclick="filterSelection('wordpress')">Wordpress</button>
+                <button class="btn" onclick="filterSelection('ui')">UI</button>
+            </div>
+                  
+                  
             <div class="row">
-                <img src="img/smallgridpic/gridpicture-6.jpg" alt="smallpic" class="recent-section__grid-pic">
-                <img src="img/smallgridpic/gridpicture-2.jpg" alt="smallpic" class="recent-section__grid-pic">
-                <img src="img/smallgridpic/gridpicture-3.jpg" alt="smallpic" class="recent-section__grid-pic">
-                
-                <img src="img/smallgridpic/gridpicture-4.jpg" alt="smallpic" class="recent-section__grid-pic">
-                <img src="img/smallgridpic/gridpicture-5.jpg" alt="smallpic" class="recent-section__grid-pic">
-                <img src="img/smallgridpic/gridpicture-6.jpg" alt="smallpic" class="recent-section__grid-pic">
+                <div class="column web show">
+                    <div class="content">
+                      <img src="img/smallgridpic/gridpicture-6.jpg" alt="Mountains" style="width:100%">
+                    </div>
+                </div>
+                <div class="column web show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-2.jpg" alt="Lights" style="width:100%">
+                    </div>
+                </div>
+                <div class="column web show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-3.jpg" alt="Nature" style="width:100%">
+                    </div>
+                </div>
+                        
+                <div class="column html show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-4.jpg" alt="Car" style="width:100%">
+                    </div>
+                </div>
+                <div class="column html show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-5.jpg" alt="Car" style="width:100%">
+                    </div>
+                </div>
+                <div class="column html show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-6.jpg" alt="Car" style="width:100%">
+                    </div>
+                </div>
+                        
+                <div class="column wordpress show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-2.jpg" alt="People" style="width:100%">
+                    </div>
+                </div>
+                <div class="column wordpress show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-3.jpg" alt="People" style="width:100%">
+                    </div>
+                </div>
+                <div class="column wordpress show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-4.jpg" alt="People" style="width:100%">
+                    </div>
+                </div>
+                  
+                <div class="column ui show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-5.jpg" alt="People" style="width:100%">
+                    </div>
+                </div>
+                <div class="column ui show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-6.jpg" alt="People" style="width:100%">
+                    </div>
+                </div>
+                <div class="column ui show">
+                    <div class="content">
+                        <img src="img/smallgridpic/gridpicture-2.jpg" alt="People" style="width:100%">
+                    </div>
+                </div>
             </div> 
-            </div>
-            </div>
         </div>   
     </section>
         
@@ -179,6 +240,8 @@
             </div>
             </div>
         </footer>   
+
+        <script src="script.js"></script>
 
     </body>
 </html>

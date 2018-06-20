@@ -15,10 +15,6 @@
     }
 }
 
-@media only screen and (max-width: 1120px) {
-    
-}
-
 @media only screen and (max-width: 1060px) {
 
     /* HOME */
@@ -155,6 +151,10 @@
     .what-we-do-section__form--1 {
         width: 390px;
     }
+
+    .span-1-of-4-crazy-team {
+        width: 48.8%;
+    }
     
     /* PROJECTS */
 
@@ -178,7 +178,7 @@
         display: none;
     }
     .blogs-section__big-blog-img {
-        width: 770px;
+        width: 770px !important;
     }
     .blogs-section__img-of-a-blog {
         text-align: left;
@@ -190,6 +190,13 @@
 
     .layout-form__contact-name {
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .blogs-section__big-blog-img {
+        width: 620px;
     }
 }
 
@@ -210,6 +217,19 @@
 
     /* HOME */
 
+    .checkbox-logo-contact-bar {
+        display: inline;
+        width: 40%;
+    }
+    .nav-bar {
+        padding: 0;
+    }
+    .icon-padding {
+        padding-right: 0;
+    }
+    .social-icons {
+        margin-left: 10px; 
+    }
     .contact-text {
         display: inline;
     }
@@ -286,12 +306,6 @@
     }
     .blogs-section__text-past-img {
         width: auto;
-    }
-
-    /* CONTACT US */
-
-    .layout-form__contact-name {
-        margin-bottom: 20px;
     }
 }
 

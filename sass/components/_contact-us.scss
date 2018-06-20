@@ -1,26 +1,108 @@
-.layout-form {
-    &__contact-name {
-        padding-left: 10px;
-        font-size: 18px;
-        height: 45px;
-        outline: none;
-        width: 100%;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        border: 2px solid #eeeeee;
-    }
+.contact-section {
+    display: grid;
+    grid-template-columns: repeat(38,  1fr);
+    grid-template-rows: repeat(11, 1fr);
 }
-.layout-form-message {
 
-    &__message-textarea {
-        padding-left: 10px;
-        font-size: 18px;
-        outline: none;
-        width: 100%;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        height: 200px;
-        resize: none;
+
+.layout-form {
+
+    &__first-name {
+        grid-column: 9 / 19;
+        grid-row: 1 / 2;
+
         border: 2px solid #eeeeee;
+        outline: none;
+        font-size: 18px;
+        font-family: "Play",sans-serif;
+        font-weight: 400;
+        padding-left: 10px;
+
+        @media only screen and (max-width: 700px) {
+            grid-column: 9 / 31;
+            grid-row: 2 / 3;
+            
+            margin-bottom: 10px;
+        }
+    }
+
+    &__last-name {
+        grid-column: 21 / 31;
+        grid-row: 1 / 2;
+
+        border: 2px solid #eeeeee;
+        outline: none;
+        font-size: 18px;
+        font-family: "Play",sans-serif;
+        font-weight: 400;
+        padding-left: 10px;
+
+        @media only screen and (max-width: 700px) {
+            grid-column: 9 / 31;
+            grid-row: 3 / 4;
+            
+            margin-bottom: 10px;
+        }
+    }
+
+    &__email {
+        grid-column: 9 / 19;
+        grid-row: 3 / 4;
+
+        border: 2px solid #eeeeee;
+        outline: none;
+        font-size: 18px;
+        font-family: "Play",sans-serif;
+        font-weight: 400;
+        padding-left: 10px;
+
+        @media only screen and (max-width: 700px) {
+            grid-column: 9 / 31;
+            grid-row: 4 / 5;
+            
+            margin-bottom: 10px;
+        }
+    }
+
+    &__website {
+        grid-column: 21 / 31;
+        grid-row: 3 / 4;
+
+        border: 2px solid #eeeeee;
+        outline: none;
+        font-size: 18px;
+        font-family: "Play",sans-serif;
+        font-weight: 400;
+        padding-left: 10px;
+
+        @media only screen and (max-width: 700px) {
+            grid-column: 9 / 31;
+            grid-row: 5 / 6;
+            
+            margin-bottom: 10px;
+        }
+    }
+    
+    &__message-textarea {
+        grid-column: 9 / 31;
+        grid-row: 5 /11;
+
+        border: 2px solid #eeeeee;
+        outline: none;
+        font-size: 18px;
+        font-family: "Play",sans-serif;
+        font-weight: 400;
+        padding-left: 10px;
+        resize: none;
+
+        @media only screen and (max-width: 700px) {
+            grid-column: 9 / 31;
+            grid-row: 6 / 11;
+        }
+    }
+
+    &__button {
+        grid-column: 9 / span 1;
+        grid-row: 11 / 12;
     }
 }

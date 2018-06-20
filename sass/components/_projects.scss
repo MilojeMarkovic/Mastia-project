@@ -7,21 +7,28 @@
         padding-right: 15px;
     }  
 }
-.breadcrumbs {
-    text-align: right;
-    list-style-type: none;
-    margin-bottom: 10px;
-    margin-right: 20px;
-}
-.breadcrumbs li {
-    font-size: 18px;
-    display: inline;
-}
-.breadcrumbs li+li:before {
+.column {
+    float: left;
+    width: 32.8%;
+    display: none; 
     padding: 8px;
-    color: black;
-    content: "/\00a0";
 }
-.breadcrumbs li a:hover {
+.content {
+    background-color: white;
+    padding: 5px;
+}
+.show {
+    display: block;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4b4b4b;
+}
+.btn.active {
     border-bottom: 2px solid #22a7f0;
 }
