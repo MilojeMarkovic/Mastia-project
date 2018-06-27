@@ -477,3 +477,231 @@
         margin-bottom: 20px;
     }
 }
+
+/* 425 px */
+
+@media only screen and (max-width: 425px) {
+
+    /* HOME */
+
+    .contact-text {
+        display: inline;
+    }
+    .checkbox-logo {
+        display: none;
+    }
+    .arrowheads__arrow-right {
+        right: 0;
+        bottom: 120px;
+    }
+    .arrowheads__arrow-left {
+        left: 0;
+        bottom: 120px;
+    }
+    .text-padding {
+        padding: 0 0 0 15px !important;
+    }
+    .small-arrows {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .margin-for-blog {
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 450px;
+        height: 450px;
+    }
+    .client-says-section__align-img-right {
+        text-align: center;
+    }
+    .client-says-section__client-img {
+        width: 35%;
+    }
+    .what-we-do-section__form {
+        width: 450px;
+    }
+    .what-we-do-section__form--1 {
+        width: 450px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* BLOGS */
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 450px;
+    }
+
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
+
+/* 375 px */
+
+@media only screen and (max-width: 375px) {
+
+    /* HOME */
+
+    .contact-text {
+        display: inline;
+    }
+    .checkbox-logo {
+        display: none;
+    }
+    .arrowheads__arrow-right {
+        right: 0;
+        bottom: 120px;
+    }
+    .arrowheads__arrow-left {
+        left: 0;
+        bottom: 120px;
+    }
+    .text-padding {
+        padding: 0 0 0 15px !important;
+    }
+    .small-arrows {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .margin-for-blog {
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 450px;
+        height: 450px;
+    }
+    .client-says-section__align-img-right {
+        text-align: center;
+    }
+    .client-says-section__client-img {
+        width: 35%;
+    }
+    .what-we-do-section__form {
+        width: 450px;
+    }
+    .what-we-do-section__form--1 {
+        width: 450px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* BLOGS */
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 450px;
+    }
+
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
+
+/* 320 px */
+
+@media only screen and (max-width: 320px) {
+
+    /* HOME */
+
+    .contact-text {
+        display: inline;
+    }
+    .checkbox-logo {
+        display: none;
+    }
+    .arrowheads__arrow-right {
+        right: 0;
+        bottom: 120px;
+    }
+    .arrowheads__arrow-left {
+        left: 0;
+        bottom: 120px;
+    }
+    .text-padding {
+        padding: 0 0 0 10px !important;
+    }
+    .small-arrows {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .margin-for-blog {
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT US */
+
+    .who-are-we-section__who-are-we-pic {
+        width: 450px;
+        height: 450px;
+    }
+    .client-says-section__align-img-right {
+        text-align: center;
+    }
+    .client-says-section__client-img {
+        width: 35%;
+    }
+    .what-we-do-section__form {
+        width: 450px;
+    }
+    .what-we-do-section__form--1 {
+        width: 450px;
+    }
+    
+    /* PROJECTS */
+
+    .breadcrumbs {
+        text-align: left;
+    }
+    .recent-section__grid-pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* BLOGS */
+
+    .span-1-of-3-blogs {
+        display: none;
+    }
+    .blogs-section__big-blog-img {
+        width: 450px;
+    }
+
+    /* CONTACT US */
+
+    .layout-form__contact-name {
+        margin-bottom: 20px;
+    }
+}
