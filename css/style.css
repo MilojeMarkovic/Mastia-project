@@ -980,6 +980,9 @@ a {
   display: flex; }
   .contact-text__icons {
     padding-left: 40px; }
+    @media only screen and (max-width: 700px) {
+      .contact-text__icons {
+        padding-left: 0; } }
 
 .nav-bar-pages .nav-list {
   text-decoration: none;
