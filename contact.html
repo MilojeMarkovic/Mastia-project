@@ -54,7 +54,7 @@
         <section class="title-text header-paddings">
             <div class="container nav-bar-flex">
             
-            <img src="img/checkbox-logo.png" class="checkbox-logo">
+            <a href="#"><img src="img/checkbox-logo.png" class="checkbox-logo"></a>
         
                 <nav class="nav-bar-pages">
                     <ul class="nav-list">
@@ -89,7 +89,9 @@
         </section>
 
     <!-- CONTACT FORM -->
-    <section class="container contact-section section-paddings layout-form">  
+    <section class="container contact-section section-paddings">
+        
+        <div class="css-grid-for-contact layout-form">
             <input type="Name" name="Name" class="layout-form__first-name" placeholder="First Name">
     
             <input type="Name" name="Name" class="layout-form__last-name" placeholder="Last Name">
@@ -100,8 +102,10 @@
         
 
             <textarea type="Message" name="Message" class="layout-form__message-textarea margin-bottom" placeholder="Your Message"></textarea>
-    
-            <button class="btn-secondary layout-form__button">Send</button>
+        </div>
+            <div style="text-align: left">
+            <button class="btn-secondary button">Send</button>
+            </div>            
     </section>
 
     <section class="map-section">

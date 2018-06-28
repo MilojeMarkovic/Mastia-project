@@ -56,7 +56,7 @@
 
     &__blogs-button {
         text-align: right;
-        margin-right: 20px;
+        margin-right: 15px;
         margin-bottom: 80px;
     }
 }
@@ -97,7 +97,9 @@
     font-family: "Open Sans";
     font-weight: 300;
     color: #4b4b4b;
+    outline: none;
 }
+
 .search-icon {
     position: absolute;
     top: 50%;

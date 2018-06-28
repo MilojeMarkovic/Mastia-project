@@ -17,6 +17,14 @@
 
 @media only screen and (max-width: 1060px) {
 
+    .read-more-button-left {
+        font-size: 12px;
+    }
+
+    .read-more-button-right {
+        font-size: 12px;
+    }
+
     /* HOME */
     .building-imgs {
         width: 300px;
@@ -216,9 +224,9 @@
     }
 
     /* HOME */
-
+    
     .checkbox-logo-contact-bar {
-        display: inline;
+        display: inline-block;
         width: 40%;
     }
     .nav-bar {
@@ -660,7 +668,7 @@
         display: none;
     }
     .blogs-section__big-blog-img {
-        width: 320px;
+        width: 330px;
     }
 
     .blogs-section__text-past-img {
@@ -763,7 +771,7 @@
         display: none;
     }
     .blogs-section__big-blog-img {
-        width: 320px;
+        width: 310px;
     }
 
     .blogs-section__text-past-img {
